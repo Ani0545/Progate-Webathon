@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn HTML</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="response.css">
+  <link
+    href="https://fonts.googleapis.com/css?family=Amatic+SC|Kaushan+Script|Montserrat|Nova+Mono|Ubuntu+Condensed&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+<header>
+<div class="top-container">
+  <a class="tab" href="index.html" >HOME</a>
+  <a class="tab" href="Html.html" >HTML</a>
+  <a class="tab" href="Css.html" > CSS</a>
+  <a class="tab" href="Js.html" >JavaScript</a>
+  <a class="tab" href="Resources.html" >Resources</a>
+
+
+</div>
+</header>
+  <div class="container">
+    <div class="mySlides">
+      <p>Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web
+      browser.</p>
+      <p>Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web
+      pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the
+      document.</p>
+    </div>
+    <div class="mySlides">
+      <h3 class="_title">Elements and Attributes</h3>
+      <br>
+      <p>HTML documents imply a structure of nested HTML elements. These are indicated in the document by HTML tags, enclosed in
+      angle brackets : <span class="code">< ></span>.<br>
+         
+        In general, the extent of an element is indicated by a pair of tags: a "start tag" and an "end tag". The text content of the element, if any, is placed between these tags. <br>
+      
+        Tags may also enclose further tag markup between the start and end, including a mixture of tags and text. This
+        indicates further (nested) elements, as children of the parent element. <br>
+      
+        The start tag may also include attributes within the tag. These indicate other information, such as identifiers for
+        sections within the document, identifiers used to bind style information to the presentation of the document, and for
+        some tags such as the <span class="code">< img ></span> used to embed images, the reference to the image resource.
+      
+        Some elements, such as the line break <span class="code">< br ></span>, do not permit any embedded content, either text or further tags. These require only a single empty tag (akin to a start tag) and do not use an end tag.
+
+        The general form of an HTML element is therefore: <br>
+        <span class="code">< tag attribute1="value1" attribute2="value2" >content< /tag >.</span><br>
+        Some HTML elements are defined as empty elements and take the form <br>
+        <span class="code">< tag attribute1="value1" attribute2="value2" >.</span>
+      
+      </p>
+    </div>
+    <div class="mySlides">
+      <h3>Element examples</h3>
+      <p>Every HTML5 file starts with the following tag:<br>
+          <span class="code">< ! DOCTYPE html ></span><br>
+          which is followed by the <span class="code">< html ></span> tag which encloses the entire file.<br>
+
+          Header of the HTML document: <br>
+          
+          <span class="code">< head >...< / head > </span>. The title is included in the header section, inside the <span class="code">< title ></span> tag.
+          <br>
+          The body of the webpage is enclosed within <span class="code">< body ></span> tag.
+          <br>
+          <br>
+          Comments in html:<br>
+          In html, comments are writen within <span class="code">'< !-- '</span> and <span class="code">'-->'</span>
+      </p>
+    </div>
+    <div class="mySlides">
+      <h3>Headings:</h3>
+      <p>HTML headings are defined with the <span class="code">< h1 ></span> to <span class="code">< h6 ></span> tags with H1 being the highest (or most important) level and
+          H6 the least: <br>
+      
+          <span class="code"><span class="code">< h1 >Heading level 1< /h1 ></span><br>
+          <span class="code"><span class="code">
+              < h2 >Heading level 2< /h2 >
+            </span><br>
+          <span class="code"><span class="code">
+              < h3 >Heading level 3< /h3 >
+            </span><br>
+          <span class="code"><span class="code">
+              < h4 >Heading level 4< /h4 >
+            </span><br>
+          <span class="code"><span class="code">
+              < h5 >Heading level 5< /h5 >
+            </span><br>
+          <span class="code"><span class="code">
+              < h6 >Heading level 6< /h6 >
+            </span><br></p>
+      <h3>Paragraphs:</h3>
+      <p>  
+      
+          <span class="code">< p >This is the Paragraph tag< /p ></span></p>
+    </div>
+    <div class="mySlides">
+      <h3>The Link Tag</h3>
+      <br><br>
+      <p>
+        <span class="code">< a href="https://www.wikipedia.org/">A link to Wikipedia!< /a></span>
+        <br>
+        This is a link in HTML. To create a link the <span class="code">< a ></span> tag is used. The 'href' attribute holds the URL address of the link.
+      </p>
+    </div>
+    <div class="mySlides">
+      <h3>Inputs:</h3>
+      <p>
+        
+        There are many possible ways a user can give input/s like:<br>
+        
+        <span class="code">< input type="text" />
+        < !-- This is for text input --></span><br>
+        <span class="code">< input type="file" />
+        < !-- This is for uploading files --></span>     
+        <br>
+        <span class="code">< input type="checkbox" />
+        < !-- This is for checkboxes --></span>
+        <br>
+      </p>
+    </div>
+  </div>
+  <!-- Next and previous buttons -->
+  <a class="prev" id="prev1" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" id="next1" onclick="plusSlides(1)">&#10095;</a>
+  <script src="script.js" type="text/javascript"></script>
+  <script> tabColor(1);</script>
+</body>
+</html>

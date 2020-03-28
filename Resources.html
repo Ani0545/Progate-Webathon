@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resources</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="response.css">
+  <link
+    href="https://fonts.googleapis.com/css?family=Amatic+SC|Kaushan+Script|Montserrat|Nova+Mono|Ubuntu+Condensed&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="top-container">
+      <a class="tab" href="index.html" onclick="tabColor(0)">HOME</a>
+      <a class="tab" href="Html.html" onclick="tabColor(1)">HTML</a>
+      <a class="tab" href="Css.html" onclick="tabColor(2)"> CSS</a>
+      <a class="tab" href="Js.html" onclick="tabColor(3)">JavaScript</a>
+      <a class="tab" href="Resources.html" onclick="tabColor(4)">Resources</a>
+
+
+    </div>
+  </header>
+  <div class="container">
+    <div class="mySlides">
+      <h3>Text Editors</h3>
+      <br>
+      <ul>
+        <li><a href="https://atom.io/" target="_blank">Atom Text Editor</a></li>
+        <li><a href="https://docs.google.com/document/d/1_U2en_kdW4DlCQs5F07ZyBRIhPU4xAB88pCvbQWZ2ww"
+            target="_blank">List of Atom Plugins</a></li>
+        <li><a href="https://github.com/nwinkler/atom-keyboard-shortcuts" target="_blank">Useful Atom keyboard
+            shortcuts</a></li>
+        <li><a href="https://code.visualstudio.com/" target="_blank">VS Code Text Editor</a></li>
+        <li><a href="https://docs.google.com/document/d/1eltxPSyGRFjN0Bc2ClCTOQmj_5mDq_8Go5GnL25qt04/edit"
+            target="_blank">VS Code Extensions</a></li>
+
+
+      </ul>
+
+
+    </div>
+    <div class="mySlides">
+      <h3>HTML</h3>
+      <br>
+      <ul>
+
+        <li><a href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf" target="_blank">HTML Cheatsheet</a> by
+          Stanford University
+        </li>
+        <li>Experiment with HTML code on <a href="https://codepen.io/" target="_blank">codepen.io</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements" target="_blank">MDN
+            documentation</a> on Headings</li>
+        <li><a href="https://www.w3schools.com/html/html_headings.asp" target="_blank">W3Schools documentation</a> on
+          headings</li>
+        <li>Difference between HTML 5 <a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em#%3Ci%3E_vs._%3Cem%3E"
+            target="_blank">emphasis vs italicise tags</a></li>
+
+        <li>MDN <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table" target="_blank">Table
+            documentation</a></li>
+        <li>MDN <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input" target="_blank">Input
+            documentation</a></li>
+        <li>Publish your website using <a href="https://pages.github.com/" target="_blank">Github Pages</a></li>
+
+
+      </ul>
+
+
+    </div>
+
+    <div class="mySlides">
+      <h3>CSS</h3>
+      <br>
+      <ul>
+        <li><a href="https://web.stanford.edu/group/csp/cs21/csscheatsheet.pdf">CSS Cheatsheet</a> from Stanford
+          University</li>
+        <li>MDN documentation on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-color"
+            target="_blank">background colour</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value" target="_blank">Table of named
+            colours</a> on MDN</li>
+        <li>Overview of <a href="https://www.w3schools.com/cssref/css_default_values.asp" target="_blank">default CSS
+            applied by the browser</a></li>
+        <li>MDN documentation on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-style"
+            target="_blank">border-styles</a></li>
+
+        <li>devdocs.io on <a href="https://devdocs.io/css/height" target="_blank">CSS height</a></li>
+        <li>W3Schools documentation on <a href="https://www.w3schools.com/css/css_text.asp" target="_blank">CSS Text</a>
+        </li>
+        <li>Markus Vogl <a href="http://markusvogl.com/web1/interactive_box_model/css_box_demo.html"
+            target="_blank">Interactive Box Model Demo</a></li>
+        <li>W3Schools documentation on <a href="https://www.w3schools.com/cssref/css_websafe_fonts.asp">Web Safe
+            Fonts</a></li>
+
+        <li>MDN documentation reference on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference"
+            target="_blank">CSS Properties and Pseudoclasses</a></li>
+        <li><a
+            href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/Adding_z-index">Z-Index
+            Documentation</a> on MDN</li>
+      </ul>
+
+
+    </div>
+    <div class="mySlides">
+      <h3>JavaScript</h3>
+      <br>
+      <ul>
+        <li><a href="https://github.com/rwaldron/idiomatic.js" target="_blank">Writing Good Javascript Guidelines</a>
+        </li>
+        <li><a href="http://stanford.edu/~cpiech/karel/ide.html" target="_blank">Karel Online IDE</a></li>
+        <li><a href="https://www.w3schools.com/js/default.asp">JSS W3School Tutorials</a></li>
+      </ul>
+
+
+    </div>
+
+
+
+
+
+
+  </div>
+
+
+
+  <!-- Next and previous buttons -->
+  <a class="prev" id="prev1" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" id="next1" onclick="plusSlides(1)">&#10095;</a>
+  <script src="script.js" type="text/javascript"></script>
+  <script>
+    tabColor(4);
+  </script>
+</body>
+
+</html>

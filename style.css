@@ -1,0 +1,104 @@
+*{
+  box-sizing: border-box;
+   margin: 0;
+  padding: 0;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  font-family: 'Merriweather', serif;
+  background-color: rgb(165, 207, 224);
+}
+
+.hello{
+  background-image: url("photo.jpg");
+  background-size: 100% 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  z-index: -1;
+  padding-top: 5%;
+   
+  
+}
+
+ h1{
+  font-family: 'Domine', serif;
+    font-size: 5.625rem;
+  /* rem ensures that parent tag's fontsize doesn't upstrem over this */
+  margin: 50px auto 0;
+  padding-left: 5%;
+  color: black;
+  
+}
+
+ h2{
+ 
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 3.25rem;
+  color: linen;
+  font-weight: normal;
+  float: left;
+  padding: 1% 0 0 5%;
+  width: 60%
+  
+}
+.lesson {
+  margin-top: 30px;
+  float: left;
+  width: 33%;
+  height: 33%;
+  
+}
+
+.lesson-icon {
+  position: relative;
+  margin-left: 15%;
+  width: 55%; 
+  height: 12%; 
+
+}
+
+.lesson-icon img{
+  
+  margin: 5px 10px 15px 5px;
+  width: 100%; 
+  height: 100%; 
+      
+}
+
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+
+.message {
+  padding: 15px 30px;
+  background-color: #8f41b3;
+  cursor: pointer;
+  box-shadow: 0 7px #3a072d;
+  margin: 40px 0 30px 30%;
+ 
+}
+
+.message:hover{
+  opacity: 0.5;
+}
+
+.message:active{
+  transform: translateY(4px);
+  box-shadow: none;
+}
+
+
+
+

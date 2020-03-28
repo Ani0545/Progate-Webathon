@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn HTML</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="response.css">
+  <link
+    href="https://fonts.googleapis.com/css?family=Amatic+SC|Kaushan+Script|Montserrat|Nova+Mono|Ubuntu+Condensed&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="top-container">
+      <a class="tab" href="index.html">HOME</a>
+      <a class="tab" href="Html.html">HTML</a>
+      <a class="tab" href="Css.html"> CSS</a>
+      <a class="tab" href="Js.html">JavaScript</a>
+      <a class="tab" href="Resources.html">Resources</a>
+
+
+    </div>
+  </header>
+  <div class="container">
+    <div class="mySlides">
+      <p>Alongside HTML and CSS, JavaScript is one of the core technologies of the World Wide Web. JavaScript enables
+        interactive web pages and is an essential part of web applications. <br>The vast majority of websites use it for
+        client-side page behavior, and all major web browsers have a dedicated JavaScript engine to execute it.<br>
+
+        As a multi-paradigm language, JavaScript supports event-driven, functional, and imperative programming styles. <br>
+        It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard
+        data structures, and the Document Object Model (DOM). However, the language itself does not include any
+        input/output (I/O), such as networking, storage, or graphics facilities, as the host environment (usually a web
+        browser) provides those APIs.</p>
+    </div>
+    <div class="mySlides">
+      <h3 class="_title">Variables</h3>
+      <br>
+      <p>Variables in JavaScript can be defined using either the var,  let or const keywords. Example: <br><span
+          class="code">
+         var x;
+        </span><br>
+
+        The scope of variable is within the block it is declared in. <br>
+        <br>
+        There is no built-in Input/output functionality in JavaScript; the run-time environment provides that.However,
+        most runtime environments have a <span class="code">console object</span> that can be used to print output. Here
+        is a
+          minimalist Hello
+        World program in JavaScript: <br>
+        <span class="code">
+         console.log("Hello World!");
+        </span>  <br>
+        
+          
+
+      </p>
+    </div>
+    <div class="mySlides">
+      <h3>Defining functions</h3>
+      <p>A function definition (also called a function declaration, or function statement) consists of the 
+        
+        <span class="code">
+         function
+        </span>
+         keyword, followed by:
+          <br>
+       
+        1.  The name of the function.<br>
+        2.  A list of parameters to the function, enclosed in     parentheses and separated by commas.<br>
+        3.  The JavaScript statements that define the function, enclosed in curly brackets, {...}.<br>
+        For example, the following code defines a simple function named square: <br>
+
+        <span class="code">
+          function cube(number) { <br>
+          return number * number * number;<br>
+          }
+        </span>
+      </p>
+    </div>
+    <div class="mySlides">
+      <h3>JavaScript Objects:</h3>
+      <p>Objects are variables too. But objects can contain many values.
+        For example: <br> <span class="code">
+         var car = {type:"Fiat", model:"800", color:"black"};
+        </span> <br>
+        The values are written as 
+        <span class="code">
+            name:value
+          </span> pairs (name and value separated by a colon).<br>
+          <br>
+          Accessing the object properties:<br>
+          We can access the object properties via - <br>
+          <span class="code">
+              objectName.propertyName
+            </span><br>
+            For example: 
+            <span class="code">
+               console.log(car.color);
+              </span><br>
+              will give the following output: <br>
+              <span class="code">
+                black
+                </span><br>
+                </p>
+    </div>
+    
+  </div>
+  <!-- Next and previous buttons -->
+  <a class="prev" id="prev1" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" id="next1" onclick="plusSlides(1)">&#10095;</a>
+  <script src="script.js" type="text/javascript"></script>
+  <script>
+    tabColor(3);
+  </script>
+</body>
+
+</html>

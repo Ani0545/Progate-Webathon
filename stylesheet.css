@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styling */
+header {
+  height: 65px;
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  z-index: 20;
+}
+
+.top-container {
+
+  font-size: 1.5rem;
+
+
+}
+
+.tab{
+  color:  blanchedalmond;
+  background-color: black;
+  text-decoration: none;
+  width:20%;
+  text-align: center;
+
+}
+
+.top-container a {
+  line-height: 65px;
+  padding: 0 25px;
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  float: left;
+  /*transition: all 0.5s;*/
+}
+
+.top-container a:hover{
+
+  background-color: gray;
+}
+
+body{
+  background-color: rgb(101, 28, 153);
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  margin-top: 3%;
+
+}
+
+/* Hide the text by default */
+.mySlides {
+  display: none;
+  margin : 10%;
+
+}
+
+
+/* Next & previous buttons */
+.prev,
+.next {
+  padding-top: 10%;
+  cursor: pointer;
+  position: fixed;
+  top: 40%;
+  width: auto;
+  padding: 1.7%;
+  display: block;
+  color: lightsalmon;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover{
+  opacity:0.6;
+  background-color: rgb(192, 183, 183);
+  color: white;
+}
+
+.next:hover{
+  opacity: 0.6;
+  background-color: rgb(192, 183, 183);
+  color: #fff;
+}
+
+
+/* Styling the paragraphs */
+p, li, a{
+
+  font-size: 2rem;
+  color: cornsilk;
+  font-family: 'Ubuntu Condensed', sans-serif;
+
+  line-height: 1.5;
+  letter-spacing: 0.1rem;
+}
+
+h3{
+
+  font-size: 3.2rem;
+  color: yellow;
+  font-family: 'Kaushan Script', cursive;
+
+}
+
+.code{
+  font-family: 'Nova Mono', monospace;
+  color: #f8dc88;
+
+}
+
+.mySlides img{
+  width: 60vw;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Amatic SC',
+    cursive;
+   
+}
+

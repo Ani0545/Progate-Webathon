@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn HTML</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="response.css">
+  <link
+    href="https://fonts.googleapis.com/css?family=Amatic+SC|Kaushan+Script|Montserrat|Nova+Mono|Ubuntu+Condensed&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="top-container">
+      <a class="tab" href="index.html">HOME</a>
+      <a class="tab" href="Html.html">HTML</a>
+      <a class="tab" href="Css.html"> CSS</a>
+      <a class="tab" href="Js.html">JavaScript</a>
+      <a class="tab" href="Resources.html">Resources</a>
+
+
+    </div>
+  </header>
+  <div class="container">
+    <div class="mySlides">
+      <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document
+        written in a
+        markup language like HTML.<br>
+        CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.
+
+      </p>
+    </div>
+    <div class="mySlides">
+      <h3 class="_title">Internal, External and Inline CSS Styles</h3>
+      <br>
+      <p>Internal or embedded CSS requires you to add <span class="code">
+          style
+        </span>tag in the <span class="code">
+          head
+        </span> section of your HTML document.
+
+        This CSS style is an effective method of styling a single page.<br><br>
+
+        With external CSS, you’ll link your web pages to an external .css file, which can be created by any text editor
+        in your device .<br>
+
+        This CSS type is a more efficient method, especially for styling a large website.<br>
+        In the
+        <span class="code">
+          head
+        </span>section of your HTML sheet, add a reference to your external css file by adding:<br>
+        <span class="code">
+          < link rel="stylesheet" type="text/css" href="style.css">
+        </span>
+        <br><br>
+        Inline CSS is used to style a specific HTML element. For this CSS style, you’ll only need to add
+        the style
+        attribute to each HTML tag, without using selectors.<br>
+
+        This CSS type is not really recommended, as each HTML tag needs to be styled individually.
+
+
+      </p>
+    </div>
+    <div class="mySlides">
+      <h3>Selector</h3>
+      <br>
+      <p>In CSS, selectors declare which part of the markup a style applies to by matching tags and attributes in the
+        markup itself.<br>
+        Selectors may apply to the following:</p>
+
+      <ul>
+        <li>all elements of a specific type, e.g. the second-level headers h2</li>
+        <li>elements specified by attribute</li>
+        <ul>
+          <li>id: an identifier unique within the document.</li>
+          <li>class: an identifier that can annotate multiple elements in a document</li>
+        </ul>
+        <li>elements depending on how they are placed relative to others in the document tree.</li>
+      </ul>
+      <p>
+        Classes and IDs are case-sensitive, start with letters, and can include alphanumeric characters, hyphens and
+        underscores. A class may apply to any number of instances of any elements. An ID may only be applied to a single
+        element.
+      </p>
+    </div>
+    <div class="mySlides">
+      <h3>Declaration block </h3>
+      <br>
+      <p>A declaration block consists of a list of declarations in braces. Each declaration itself consists of a
+        property, a colon (:), and a value. If there are multiple declarations in a block, a semi-colon (;) must be
+        inserted to separate each declaration. <br>
+
+        Properties are specified in the CSS standard. Each property has a set of possible values. Some properties can
+        affect any type of element, and others apply only to particular groups of elements.<br>
+
+        Values may be keywords, such as "center" or "inherit", or numerical values, such as 200px (200 pixels), 50vw (50
+        percent of the viewport width) or 80% (80 percent of the parent element's width). Color values can be specified
+        with keywords (e.g. "red"), hexadecimal values (e.g. #FF0000, also abbreviated as #F00), RGB values on a 0 to
+        255 scale (e.g. rgb(255, 0, 0)), RGBA values that specify both color and alpha transparency (e.g. rgba(255, 0,
+        0, 0.8)), or HSL or HSLA values (e.g. hsl(000, 100%, 50%), hsla(000, 100%, 50%, 80%))</ </p> </div> <div
+          class="mySlides">
+        <h3>CSS Box Model</h3>
+        <br><br>
+        <p>
+          In web development, the CSS box model refers to how HTML elements are modeled in browser engines and how
+          dimension of those HTML elements are derived from CSS properties. It is a fundamental concept for the
+          composition of HTML webpages.<br><br>
+          <img src="css-box-model.png" />
+          <br><br>
+
+          All HTML elements can be considered "boxes". Each of those boxes has five modifiable dimensions: <p><br>
+            <ul>
+              <li> the <span class="code">height</span> and <span class="code">width</span> describe dimensions of the
+                actual content
+                of the box (text, images,
+                ...) </li>
+              <li>the <span class="code">padding</span> describes the space between this content and the border of the
+                box
+              </li>
+              <li>the <span class="code">border</span> is any kind of line (solid, dotted, dashed...) surrounding the
+                box,
+                if present
+              </li>
+              <li>the <span class="code">margin</span> is the space around the border</li>
+
+            </ul>
+
+    </div>
+  </div>
+  <!-- Next and previous buttons -->
+  <a class="prev" id="prev1" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" id="next1" onclick="plusSlides(1)">&#10095;</a>
+  <script src="script.js" type="text/javascript"></script>
+  <script>
+    tabColor(2);
+  </script>
+</body>
+
+</html>
